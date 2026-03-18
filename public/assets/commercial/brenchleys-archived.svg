@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Brenchleys archived project card</title>
+  <desc id="desc">An archival card for Brenchleys noting the original domain no longer serves the original site.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2a2019" />
+      <stop offset="100%" stop-color="#89654a" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)" />
+  <rect x="84" y="84" width="1432" height="732" rx="36" fill="rgba(255,248,240,0.08)" stroke="rgba(255,244,232,0.2)" />
+  <text x="120" y="192" fill="#ffd8b2" font-family="IBM Plex Sans, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="8">ARCHIVED PROJECT</text>
+  <text x="120" y="318" fill="#fffaf4" font-family="Sora, Arial, sans-serif" font-size="92" font-weight="800">Brenchleys</text>
+  <text x="120" y="392" fill="#f5e9db" font-family="IBM Plex Sans, Arial, sans-serif" font-size="38">Furniture and interiors site work with streamlined product presentation and CMS updates.</text>
+  <text x="120" y="488" fill="#fffaf4" font-family="IBM Plex Sans, Arial, sans-serif" font-size="42" font-weight="700">brenchleys.co.uk</text>
+  <text x="120" y="564" fill="#f5e9db" font-family="IBM Plex Sans, Arial, sans-serif" font-size="34">The original domain no longer serves the same public site, so this entry is shown as an archival card.</text>
+  <text x="120" y="670" fill="#ffd8b2" font-family="IBM Plex Sans, Arial, sans-serif" font-size="30" letter-spacing="4">WORK INCLUDED</text>
+  <text x="120" y="730" fill="#fffaf4" font-family="IBM Plex Sans, Arial, sans-serif" font-size="34">Product display improvements, CMS integration, and mobile responsiveness.</text>
+</svg>

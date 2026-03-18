@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>David Hook | Senior Software Engineer</title>
+    <meta
+      name="description"
+      content="Portfolio site for David Hook, a senior software engineer with 20+ years of experience across PHP, Laravel, React, MySQL, AWS, commercial web delivery, and public GitHub projects."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#top">David Hook</a>
+        <nav class="nav">
+          <a href="#profile">Profile</a>
+          <a href="#commercial">Website Work</a>
+          <a href="#experience">Experience</a>
+          <a href="#featured">GitHub Highlights</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero reveal reveal-delay-1">
+          <div class="hero-copy">
+            <p class="eyebrow">Senior Software Engineer | PHP / Laravel / React</p>
+            <p class="hero-kicker">20+ years building web applications across agency, in-house, and freelance roles</p>
+            <h1 id="hero-name">David Hook</h1>
+            <p class="hero-intro" id="hero-intro">
+              Senior Software Engineer with 20+ years experience building, maintaining, and scaling web applications across PHP, Laravel, React, MySQL, AWS, and modern API integrations.
+            </p>
+            <p class="availability-banner">
+              <strong>Currently available for freelance commissions.</strong> Website builds, upgrades, maintenance, API integrations, and performance work for businesses that need hands-on delivery.
+            </p>
+            <div class="cta-row">
+              <a class="button button-primary" href="mailto:davehook563@gmail.com?subject=Freelance%20website%20project">Start a Project</a>
+              <a class="button button-secondary" href="#commercial">See Website Work</a>
+              <a class="button button-secondary" href="tel:+447757313206">07757 313206</a>
+              <a class="button button-secondary" href="https://github.com/mysticalg" target="_blank" rel="noreferrer">GitHub Profile</a>
+            </div>
+            <ul class="stat-strip" id="stat-strip"></ul>
+          </div>
+
+          <aside class="hero-panel">
+            <figure class="profile-card">
+              <div class="profile-photo-shell">
+                <img
+                  class="profile-photo"
+                  src="./assets/profile/david-hook.jpg"
+                  alt="David Hook portrait"
+                  loading="eager"
+                />
+              </div>
+              <figcaption class="profile-copy">
+                <p class="panel-label">Contact</p>
+                <h2>Senior engineer with deep web experience and a practical public portfolio.</h2>
+                <ul class="profile-links">
+                  <li><a href="mailto:davehook563@gmail.com">davehook563@gmail.com</a></li>
+                  <li><a href="tel:+447757313206">07757 313206</a></li>
+                  <li><a href="https://www.facebook.com/dhookster1" target="_blank" rel="noreferrer">facebook.com/dhookster1</a></li>
+                  <li><a href="https://github.com/mysticalg" target="_blank" rel="noreferrer">github.com/mysticalg</a></li>
+                </ul>
+              </figcaption>
+            </figure>
+
+            <div class="panel-card panel-card-accent">
+              <p class="panel-label">Core stack</p>
+              <div id="core-stack" class="chip-grid"></div>
+            </div>
+          </aside>
+        </section>
+
+        <section id="profile" class="section reveal reveal-delay-2">
+          <div class="section-heading">
+            <p class="eyebrow">Professional Profile</p>
+            <h2>Full-stack delivery grounded in PHP, Laravel, React, MySQL, and AWS</h2>
+            <p id="profile-summary">
+              Senior Software Engineer with 20+ years experience building, maintaining, and scaling web applications across agency, in-house, and freelance environments.
+            </p>
+          </div>
+          <div class="summary-grid">
+            <article class="summary-card">
+              <p class="panel-label">Key skill areas</p>
+              <div id="skill-groups" class="skill-groups"></div>
+            </article>
+            <article class="summary-card summary-card-accent">
+              <p class="panel-label">Career focus</p>
+              <ul id="career-points" class="career-points"></ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="commercial" class="section reveal reveal-delay-3">
+          <div class="section-heading">
+            <p class="eyebrow">Website Work</p>
+            <h2>Selected websites and platforms I have worked on professionally</h2>
+            <p>
+              These projects reflect the commercial side of my career across agency and freelance work, covering e-commerce, reservations, multilingual sites, search, content management, and performance optimisation.
+            </p>
+          </div>
+          <div class="carousel-toolbar">
+            <p class="carousel-note">Scroll through the client and commercial projects, or use the arrows to move through the carousel.</p>
+            <div class="carousel-controls">
+              <button type="button" class="carousel-button" data-commercial-prev aria-label="Scroll website work left">Previous</button>
+              <button type="button" class="carousel-button" data-commercial-next aria-label="Scroll website work right">Next</button>
+            </div>
+          </div>
+          <div id="commercial-grid" class="commercial-grid"></div>
+        </section>
+
+        <section id="experience" class="section reveal reveal-delay-4">
+          <div class="section-heading">
+            <p class="eyebrow">Experience</p>
+            <h2>Career history across product teams, freelance delivery, and agency work</h2>
+            <p>
+              My recent work spans modern React and Laravel product development, long-term LAMP support for multiple clients, and freelance delivery for businesses needing dependable web engineering.
+            </p>
+          </div>
+          <div id="experience-grid" class="experience-grid"></div>
+        </section>
+
+        <section id="featured" class="section reveal reveal-delay-5">
+          <div class="section-heading">
+            <p class="eyebrow">GitHub Highlights</p>
+            <h2>Public projects that complement my professional web work</h2>
+            <p>
+              These GitHub projects show how I apply product thinking outside commercial roles: AI automation, desktop utilities, browser tooling, and interaction-heavy front-end builds.
+            </p>
+          </div>
+          <div id="featured-grid" class="featured-grid"></div>
+        </section>
+
+        <section id="strengths" class="section strengths reveal reveal-delay-5">
+          <div class="section-heading">
+            <p class="eyebrow">Strengths</p>
+            <h2>What I bring to teams</h2>
+          </div>
+          <div id="strength-grid" class="strength-grid"></div>
+        </section>
+
+        <section id="projects" class="section reveal reveal-delay-5">
+          <div class="section-heading">
+            <p class="eyebrow">GitHub Projects</p>
+            <h2>Broader public project history</h2>
+            <p>
+              This section stays close to the repo metadata so the site reflects current work without relying on a heavy runtime integration.
+            </p>
+          </div>
+          <div class="project-toolbar">
+            <div id="filter-bar" class="filter-bar"></div>
+            <label class="search-field" for="project-search">
+              <span>Search</span>
+              <input id="project-search" type="search" placeholder="Filter by project, language, or keyword" />
+            </label>
+          </div>
+          <div id="project-grid" class="project-grid"></div>
+        </section>
+
+        <section id="credentials" class="section reveal reveal-delay-5">
+          <div class="section-heading">
+            <p class="eyebrow">Education and Interests</p>
+            <h2>Long-term technical grounding with curiosity for new workflows</h2>
+          </div>
+          <div class="credentials-grid">
+            <article class="summary-card">
+              <p class="panel-label">Education</p>
+              <ul id="education-list" class="detail-list"></ul>
+            </article>
+            <article class="summary-card summary-card-accent">
+              <p class="panel-label">Interests</p>
+              <ul id="interest-list" class="detail-list"></ul>
+            </article>
+          </div>
+        </section>
+
+        <section id="contact" class="section contact reveal reveal-delay-5">
+          <div class="contact-card">
+            <div>
+              <p class="eyebrow">Open to opportunities</p>
+              <h2>Looking for a senior developer who can modernise, ship, and support real-world web products.</h2>
+              <p>
+                I am David Hook, a Senior Software Engineer with experience across Laravel, React, PHP, MySQL, AWS, CMS platforms, e-commerce, and API integrations. If you think I could help your team, I would be happy to talk.
+              </p>
+            </div>
+            <div class="contact-actions">
+              <a class="button button-primary" href="mailto:davehook563@gmail.com">davehook563@gmail.com</a>
+              <a class="button button-secondary" href="tel:+447757313206">07757 313206</a>
+              <a class="button button-secondary" href="https://www.facebook.com/dhookster1" target="_blank" rel="noreferrer">Facebook Profile</a>
+              <a class="button button-secondary" href="https://github.com/mysticalg" target="_blank" rel="noreferrer">Browse GitHub</a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>David Hook | Senior Software Engineer | Built as a static-first Node app for low-cost AWS hosting.</p>
+      </footer>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

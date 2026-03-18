@@ -1,0 +1,9 @@
+.playwright-cli/
+output/
+.codex-tmp/
+repo-page-*.html
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

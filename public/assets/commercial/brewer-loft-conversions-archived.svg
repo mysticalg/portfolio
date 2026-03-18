@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Brewer Loft Conversions archived project card</title>
+  <desc id="desc">An archival card for Brewer Loft Conversions noting the legacy domain no longer resolves.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#22303c" />
+      <stop offset="100%" stop-color="#64798b" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)" />
+  <rect x="84" y="84" width="1432" height="732" rx="36" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)" />
+  <text x="120" y="192" fill="#d9ecff" font-family="IBM Plex Sans, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="8">ARCHIVED PROJECT</text>
+  <text x="120" y="318" fill="#ffffff" font-family="Sora, Arial, sans-serif" font-size="82" font-weight="800">Brewer Loft Conversions</text>
+  <text x="120" y="392" fill="#e2edf5" font-family="IBM Plex Sans, Arial, sans-serif" font-size="38">Lead-generation and performance work for a loft conversion and home extension business.</text>
+  <text x="120" y="488" fill="#ffffff" font-family="IBM Plex Sans, Arial, sans-serif" font-size="42" font-weight="700">brewerloftconversions.co.uk</text>
+  <text x="120" y="564" fill="#e2edf5" font-family="IBM Plex Sans, Arial, sans-serif" font-size="34">The legacy domain no longer resolves, so this project is represented with an archival card.</text>
+  <text x="120" y="670" fill="#d9ecff" font-family="IBM Plex Sans, Arial, sans-serif" font-size="30" letter-spacing="4">WORK INCLUDED</text>
+  <text x="120" y="730" fill="#ffffff" font-family="IBM Plex Sans, Arial, sans-serif" font-size="34">Lead-form improvements, performance optimisation, and stronger on-page SEO.</text>
+</svg>

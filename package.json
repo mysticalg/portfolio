@@ -1,0 +1,15 @@
+{
+  "name": "mysticalg-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Employer-facing portfolio site for mysticalg, designed for lightweight AWS hosting.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "sync:github": "node scripts/sync-github.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
