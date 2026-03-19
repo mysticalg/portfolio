@@ -101,6 +101,11 @@ a {
   text-decoration: none;
 }
 
+.nav a[aria-current="page"] {
+  color: var(--ink);
+  font-weight: 700;
+}
+
 .hero,
 .section,
 .contact-card {
@@ -125,6 +130,7 @@ a {
 .contact-card h2,
 .profile-copy h2,
 .featured-body h3,
+.download-card h3,
 .strength-card h3,
 .project-list-card h3,
 .summary-card h3,
@@ -371,7 +377,9 @@ a {
 .experience-meta,
 .commercial-domain,
 .carousel-note,
-.commercial-status {
+.commercial-status,
+.download-note,
+.artifact-meta {
   color: var(--muted);
   line-height: 1.7;
 }
@@ -556,6 +564,130 @@ a {
   font-weight: 700;
   text-decoration: none;
   color: var(--teal);
+}
+
+.downloads-hero {
+  align-items: start;
+}
+
+.download-side-list {
+  display: grid;
+  gap: 0.8rem;
+  padding-left: 1.15rem;
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.download-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.download-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1.35rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: rgba(255, 253, 248, 0.9);
+  box-shadow: var(--shadow);
+}
+
+.download-card-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.download-card .project-category,
+.download-card h3,
+.download-card .project-summary,
+.download-card .download-note {
+  margin: 0;
+}
+
+.download-card h3 {
+  font-size: 1.55rem;
+}
+
+.download-card .project-links {
+  margin-top: auto;
+}
+
+.download-badge {
+  margin: 0;
+  padding: 0.6rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.74);
+  font-size: 0.92rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.artifact-list {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.artifact-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.66);
+}
+
+.artifact-copy {
+  min-width: 0;
+}
+
+.artifact-title-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  align-items: center;
+}
+
+.artifact-label {
+  margin: 0;
+  font-weight: 700;
+}
+
+.artifact-meta {
+  margin: 0.25rem 0 0;
+}
+
+.artifact-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.28rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.artifact-pill-hosted {
+  background: rgba(14, 124, 123, 0.12);
+  color: var(--teal);
+}
+
+.artifact-pill-external {
+  background: rgba(191, 99, 54, 0.12);
+  color: var(--copper);
+}
+
+.artifact-button {
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 
 .strength-grid {
@@ -793,6 +925,7 @@ a {
   .summary-grid,
   .experience-grid,
   .featured-grid,
+  .download-grid,
   .project-grid,
   .strength-grid,
   .credentials-grid,
@@ -859,6 +992,7 @@ a {
   }
 
   .project-list-top,
+  .artifact-item,
   .contact-actions,
   .profile-card {
     flex-direction: column;

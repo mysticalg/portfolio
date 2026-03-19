@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>David Hook | Project Downloads</title>
+    <meta
+      name="description"
+      content="Download installers, standalone builds, and legacy plugin binaries from David Hook's public software projects."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Sora:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="../">David Hook</a>
+        <nav class="nav">
+          <a href="../#featured">Highlights</a>
+          <a href="./" aria-current="page">Downloads</a>
+          <a href="../#projects">Projects</a>
+          <a href="../#contact">Contact</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero downloads-hero reveal reveal-delay-1">
+          <div class="hero-copy">
+            <p class="eyebrow">Downloads</p>
+            <p class="hero-kicker">Installers, standalone builds, and plugin binaries from my public projects</p>
+            <h1>Project Downloads</h1>
+            <p class="hero-intro">
+              This page pulls together the packaged builds I already have available, plus direct links to release pages for projects that have installer workflows but are not bundled into this portfolio repo yet.
+            </p>
+            <div class="cta-row">
+              <a class="button button-primary" href="#downloads">Browse Downloads</a>
+              <a class="button button-secondary" href="../">Back to Portfolio</a>
+              <a class="button button-secondary" href="https://github.com/mysticalg" target="_blank" rel="noreferrer">GitHub Profile</a>
+            </div>
+            <ul class="stat-strip" id="download-stat-strip"></ul>
+          </div>
+
+          <aside class="hero-panel">
+            <div class="panel-card panel-card-accent">
+              <p class="panel-label">What You Will Find</p>
+              <ul class="download-side-list">
+                <li>Direct Windows downloads for packaged apps and plugins that are already in the workspace</li>
+                <li>GitHub release links for projects that build installers in CI</li>
+                <li>Repo and live-page links so each download has context, screenshots, and documentation</li>
+              </ul>
+            </div>
+
+            <div class="panel-card">
+              <p class="panel-label">Release Notes</p>
+              <p class="download-note">
+                Browser games stay on their live pages rather than this installer view. Some desktop builds are unsigned, so Windows may show a trust prompt before launch.
+              </p>
+            </div>
+          </aside>
+        </section>
+
+        <section id="downloads" class="section reveal reveal-delay-2">
+          <div class="section-heading">
+            <p class="eyebrow">Download Library</p>
+            <h2>Current packaged builds and release links</h2>
+            <p>
+              Each project card shows whether the file is hosted directly here or whether the latest installers live on a GitHub release page.
+            </p>
+          </div>
+          <div id="download-grid" class="download-grid"></div>
+        </section>
+
+        <section class="section reveal reveal-delay-3">
+          <div class="section-heading">
+            <p class="eyebrow">Need Another Build</p>
+            <h2>Browser projects and source-first tools still live elsewhere</h2>
+            <p>
+              The main portfolio remains the best place to browse browser games, interactive demos, and source-first repositories that do not have packaged installers yet.
+            </p>
+          </div>
+          <div class="summary-grid">
+            <article class="summary-card">
+              <p class="panel-label">Typical Formats</p>
+              <ul class="detail-list">
+                <li>
+                  <strong>Portable zip builds</strong>
+                  <span>Good for desktop apps that can be unpacked and run without a formal installer.</span>
+                </li>
+                <li>
+                  <strong>Standalone executables</strong>
+                  <span>Useful for quick testing or tools that ship as a single Windows app.</span>
+                </li>
+                <li>
+                  <strong>Plugin binaries</strong>
+                  <span>Legacy VST DLL releases for dropping straight into a host plugin folder.</span>
+                </li>
+              </ul>
+            </article>
+            <article class="summary-card summary-card-accent">
+              <p class="panel-label">Practical Notes</p>
+              <ul class="career-points">
+                <li>Unsigned app builds can trigger SmartScreen or other operating-system warnings.</li>
+                <li>Legacy plugin downloads are preserved for convenience, but they target older Windows audio workflows.</li>
+                <li>When a project has a release workflow but no local artifact here, the card links you to the repo release page instead.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>David Hook | Project downloads, release links, and portfolio context in one place.</p>
+      </footer>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
