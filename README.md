@@ -2,6 +2,8 @@
 
 Employer-facing portfolio site for `mysticalg`, built to be lightweight enough for a small AWS deployment.
 
+Live page: [mysticalg.github.io/portfolio](https://mysticalg.github.io/portfolio/)
+
 ## Stack
 
 - Static front end: HTML, CSS, and vanilla JavaScript
@@ -56,3 +58,8 @@ After the AWS CLI is configured, you can redeploy the existing Elastic Beanstalk
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\deploy-eb.ps1
 ```
+
+## Support
+
+If you'd like to support this project, you can buy me a coffee:
+[buymeacoffee.com/dhooksterm](https://buymeacoffee.com/dhooksterm)
