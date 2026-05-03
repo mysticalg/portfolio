@@ -2,33 +2,68 @@ const siteContent = {
   hero: {
     name: "David Hook",
     intro:
-      "Senior Software Engineer with 20+ years experience building, maintaining, and scaling web applications across agency, in-house, and freelance environments. Strong full-stack expertise across PHP, Laravel, React, MySQL, AWS, commerce platforms, and modern API integrations.",
-    stack: ["PHP", "Laravel", "React", "MySQL", "AWS", "Adobe Commerce", "Shopify", "OpenCart"]
+      "I build practical products end to end: TypeScript SaaS platforms, Chrome extensions, native C++/JUCE audio tools, Laravel and React systems, and long-running commerce platforms.",
+    stack: ["TypeScript", "PHP", "Laravel", "React", "C++", "JUCE", "AWS", "Shopify", "Adobe Commerce", "OpenCart"]
   },
+  heroNow: [
+    "LedgerFetch: SaaS-backed invoice and receipt capture with extension, dashboard, API, workers, Postgres, Redis, and MinIO.",
+    "PromptShield and PauseTab: privacy-first browser products with TypeScript monorepos, Chrome Manifest V3, billing, policy, and deployment paths.",
+    "Mutagen AI Music Studio: native JUCE desktop workstation with VST3 hosting, bundled instruments, and AI-assisted composition."
+  ],
   profileSummary:
-    "Senior Software Engineer with 20+ years experience building, maintaining, and scaling web applications across agency, in-house, and freelance environments. Strong full-stack expertise with PHP, Laravel, React, MySQL, Adobe Commerce, Shopify, and OpenCart, delivering secure, high-performance solutions in fast-paced and agile teams. I am currently available for freelance commissions.",
+    "Senior Software Engineer with 20+ years experience building, maintaining, and scaling production systems across agency, in-house, freelance, and independent product work. Recent GitHub activity shows full-stack SaaS architecture, privacy/security extensions, native C++ audio tooling, AI-assisted workflows, and commerce platform delivery.",
   careerPoints: [
-    "Architecting and delivering modern web platforms with React front ends and Laravel back ends",
-    "Improving legacy systems without losing sight of stability, maintainability, and release cadence",
-    "Shipping e-commerce, CMS, booking, search, and API-driven products across Adobe Commerce, Shopify, OpenCart, and bespoke stacks",
-    "Comfortable collaborating with stakeholders, product teams, and clients to turn requirements into working software"
+    "Turn product ideas into working systems across front end, API, worker, database, deployment, documentation, and release paths.",
+    "Modernise existing products without losing sight of uptime, maintainability, data migration, or operational handover.",
+    "Bridge newer product work with long commercial experience across Laravel, React, PHP, MySQL, CMS, e-commerce, and cloud hosting.",
+    "Work directly with stakeholders and clients, keeping delivery practical, incremental, and grounded in real business constraints."
   ],
   skillGroups: [
     {
-      title: "Programming and Frameworks",
-      items: ["PHP", "Laravel", "Zend", "React", "JavaScript", "jQuery", "HTML", "CSS", "MySQL"]
+      title: "Product and SaaS",
+      items: ["TypeScript", "Fastify", "React", "Chrome MV3", "Postgres", "Redis", "MinIO", "Docker"]
     },
     {
-      title: "CMS and E-Commerce",
-      items: ["Adobe Commerce", "Magento", "Shopify", "OpenCart", "WordPress", "WooCommerce", "Custom plugins", "SEO improvements"]
+      title: "Web and Commerce",
+      items: ["PHP", "Laravel", "MySQL", "Adobe Commerce", "Shopify", "OpenCart", "WooCommerce", "WordPress"]
     },
     {
-      title: "Tools and Platforms",
-      items: ["AWS", "Apache", "Linux", "Git", "Subversion", "Jira", "Teams", "Agile delivery"]
+      title: "Native and AI Tools",
+      items: ["C++", "JUCE", "VST3", "Python", "PySide6", "OpenAI", "xAI", "FFmpeg"]
     },
     {
-      title: "Additional Strengths",
-      items: ["REST APIs", "Google APIs", "Amazon integrations", "OpenAI integrations", "MVC frameworks", "Performance tuning"]
+      title: "Delivery and Operations",
+      items: ["AWS", "Hetzner", "Linux", "Nginx", "GitHub Actions", "Stripe", "API Integrations", "Performance"]
+    }
+  ],
+  focusAreas: [
+    {
+      title: "SaaS and API Systems",
+      label: "LedgerFetch",
+      body:
+        "Invoice and receipt capture platform with a Chrome extension, SaaS dashboard, queue-backed API, worker pipeline, accounting sync, and production migration notes.",
+      proof: ["Fastify API", "Postgres / Redis / MinIO", "Hetzner migration", "Chrome extension"]
+    },
+    {
+      title: "Privacy and Browser Products",
+      label: "PromptShield / PauseTab",
+      body:
+        "TypeScript monorepos for browser extensions, policy engines, admin consoles, billing, licensing, release checks, and Web Store launch documentation.",
+      proof: ["Chrome MV3", "Policy engine", "Stripe", "AWS deploy path"]
+    },
+    {
+      title: "Native AI Audio Software",
+      label: "Mutagen",
+      body:
+        "Native C++/JUCE music workstation with MIDI sequencing, VST3 hosting, bundled instruments, automation, sample workflows, and AI-assisted composition.",
+      proof: ["C++ / JUCE", "VST3 host", "Bundled instruments", "Windows releases"]
+    },
+    {
+      title: "Commerce and Platform Work",
+      label: "WooOracle AI / client platforms",
+      body:
+        "Commercial history across Adobe Commerce, Shopify, OpenCart, WooCommerce, CMS builds, custom plugins, checkout flows, recommendations, and integrations.",
+      proof: ["Adobe Commerce", "Shopify", "OpenCart", "WooCommerce"]
     }
   ],
   platformPartners: [
@@ -38,8 +73,8 @@ const siteContent = {
       logo: "./assets/platforms/adobe-wordmark.svg",
       url: "https://business.adobe.com/products/commerce/adobe-commerce.html",
       body:
-        "Magento and Adobe Commerce work covering extensions, marketplace-style delivery, catalogue flows, integrations, and long-term support.",
-      strengths: ["Commerce builds", "Extension work", "Performance support"],
+        "Magento and Adobe Commerce work covering extensions, catalogue flows, search, integrations, performance support, and long-term maintenance.",
+      strengths: ["Commerce builds", "Extension work", "Search and catalogue"],
       accent: "platform-adobe"
     },
     {
@@ -48,7 +83,7 @@ const siteContent = {
       logo: "./assets/platforms/shopify-wordmark.svg",
       url: "https://www.shopify.com/partners",
       body:
-        "Theme improvements, storefront changes, migrations, checkout-adjacent workflows, and API integrations for merchants who need practical delivery.",
+        "Storefront changes, theme improvements, migrations, API integrations, checkout-adjacent work, and merchant support.",
       strengths: ["Theme work", "Storefront polish", "API integration"],
       accent: "platform-shopify"
     },
@@ -58,9 +93,19 @@ const siteContent = {
       logo: "./assets/platforms/opencart.svg",
       url: "https://www.opencart.com/index.php?route=support/partner",
       body:
-        "Custom OpenCart extensions, maintenance, catalogue and checkout improvements, and support for long-running PHP commerce installs.",
+        "Custom modules, maintenance, catalogue and checkout improvements, and support for long-running PHP commerce installs.",
       strengths: ["Custom modules", "Maintenance", "Checkout improvements"],
       accent: "platform-opencart"
+    },
+    {
+      name: "WooOracle AI",
+      label: "WooCommerce product work",
+      logoText: "WooOracle AI",
+      url: "https://github.com/mysticalg/WooOracle-AI",
+      body:
+        "AI-powered WooCommerce personalization concept covering product recommendations, bundles, cart offers, guided selling, and recovery workflows.",
+      strengths: ["Recommendations", "AOV", "Recovery flows"],
+      accent: "platform-woo"
     }
   ],
   experience: [
@@ -72,20 +117,20 @@ const siteContent = {
       points: [
         "Architected and developed a modern in-house platform using React on the front end and Laravel REST APIs on the back end.",
         "Designed scalable API services and handled database migrations and schema evolution.",
-        "Deployed and maintained applications on AWS with a focus on security, performance, and reliability.",
-        "Worked in Agile sprints with GitHub and Jira, contributing to delivery planning and technical decision-making."
+        "Deployed and maintained applications on AWS with attention to security, performance, and reliability.",
+        "Worked in Agile sprints with GitHub and Jira, contributing to delivery planning and technical decisions."
       ]
     },
     {
-      role: "Freelance Web Developer",
+      role: "Independent Product and Freelance Developer",
       company: "Independent",
-      period: "Jan 2020 - Sep 2023",
+      period: "2020 - Present",
       mode: "Remote",
       points: [
-        "Delivered end-to-end web development and updates for a range of business clients.",
-        "Enhanced legacy systems and developed custom plugins and extensions for WordPress and OpenCart.",
-        "Integrated third-party services including Google, Amazon, and OpenAI APIs.",
-        "Balanced hands-on engineering with direct client communication, prioritisation, and support."
+        "Built and iterated public products across SaaS, browser extensions, native audio tools, AI media workflows, and commerce experiments.",
+        "Delivered client website updates, CMS improvements, API integrations, plugin work, and platform maintenance.",
+        "Integrated third-party services including Google, Amazon, OpenAI-compatible APIs, Stripe, and deployment platforms.",
+        "Balanced hands-on engineering with direct client communication, prioritisation, support, and release documentation."
       ]
     },
     {
@@ -121,7 +166,7 @@ const siteContent = {
       image: "./assets/commercial/bluebit.png",
       imageAlt: "Bluebit website homepage screenshot",
       description:
-        "Contributed to bespoke website development, custom WordPress work, performance optimisation, and scalable web solutions for a full-service web design agency."
+        "Bespoke website development, WordPress work, performance optimisation, and scalable web solutions for a full-service agency."
     },
     {
       name: "I Like Music",
@@ -131,7 +176,7 @@ const siteContent = {
       image: "./assets/commercial/i-like-music.png",
       imageAlt: "I Like Music website homepage screenshot",
       description:
-        "Improved user experience, integrated APIs for content management, and enhanced performance for a licensed digital music library."
+        "User experience improvements, content-management API work, and performance support for a licensed digital music library."
     },
     {
       name: "Model Store",
@@ -141,7 +186,7 @@ const siteContent = {
       image: "./assets/commercial/model-store.png",
       imageAlt: "Model Store website homepage screenshot",
       description:
-        "Developed custom e-commerce features, optimised checkout flows, and applied SEO improvements to support sales."
+        "Custom e-commerce features, checkout improvements, SEO work, and catalogue support for a retail platform."
     },
     {
       name: "Total Wardrobe Storage",
@@ -151,7 +196,7 @@ const siteContent = {
       image: "./assets/commercial/total-wardrobe-storage.png",
       imageAlt: "Total Wardrobe Storage website homepage screenshot",
       description:
-        "Built an intuitive booking experience, improved responsiveness, and optimised back-end performance for a specialist storage business."
+        "Booking-oriented UX, responsive improvements, and back-end performance support for a specialist storage business."
     },
     {
       name: "Berthon",
@@ -161,7 +206,7 @@ const siteContent = {
       image: "./assets/commercial/berthon.png",
       imageAlt: "Berthon website homepage screenshot",
       description:
-        "Enhanced UI and UX, supported a dynamic yacht listing search experience, and ensured the site worked well on mobile."
+        "UI and UX enhancements, mobile support, and work around dynamic listing/search experiences."
     },
     {
       name: "Casa Brasil Restaurants",
@@ -171,7 +216,7 @@ const siteContent = {
       image: "./assets/commercial/casa-brasil.png",
       imageAlt: "Casa Brasil Restaurants website homepage screenshot",
       description:
-        "Optimised reservation journeys, improved the menu presentation, and integrated social media content."
+        "Reservation journey optimisation, menu presentation improvements, and social/content integrations."
     },
     {
       name: "Marcus McCallum Ltd",
@@ -182,7 +227,7 @@ const siteContent = {
       imageAlt: "Marcus McCallum archived project card",
       status: "Current site access is gated behind login, so this card uses an archival project panel.",
       description:
-        "Handled e-commerce enhancements, secure payment integrations, and stronger on-site search for a high-end gemstone business."
+        "E-commerce enhancements, secure payment integrations, and stronger on-site search for a high-end gemstone business."
     },
     {
       name: "Keffen Plant Hire",
@@ -192,7 +237,7 @@ const siteContent = {
       image: "./assets/commercial/keffen-plant-hire.png",
       imageAlt: "Keffen Plant Hire website homepage screenshot",
       description:
-        "Built out a machinery catalogue, integrated booking-oriented functionality, and improved overall site speed."
+        "Machinery catalogue work, booking-oriented features, and site-speed improvements."
     },
     {
       name: "Brenchleys",
@@ -203,7 +248,7 @@ const siteContent = {
       imageAlt: "Brenchleys archived project card",
       status: "The original domain no longer serves the original site, so this entry is shown as an archival project.",
       description:
-        "Helped streamline product presentation, integrated CMS-driven updates, and ensured responsive behaviour across devices."
+        "Product presentation, CMS-driven updates, and responsive behaviour across devices."
     },
     {
       name: "Brewer Loft Conversions",
@@ -214,7 +259,7 @@ const siteContent = {
       imageAlt: "Brewer Loft Conversions archived project card",
       status: "The legacy domain no longer resolves, so this project is represented with an archival card.",
       description:
-        "Improved lead-generation forms, tightened performance, and supported stronger on-page SEO."
+        "Lead-generation form improvements, performance work, and stronger on-page SEO."
     },
     {
       name: "Truvox International",
@@ -224,190 +269,183 @@ const siteContent = {
       image: "./assets/commercial/truvox.png",
       imageAlt: "Truvox website homepage screenshot",
       description:
-        "Contributed to multilingual delivery, product page optimisation, and back-end system enhancements for a global manufacturer."
+        "Multilingual delivery, product page optimisation, and back-end system enhancements for a global manufacturer."
     }
   ],
   featuredProjects: [
     {
-      repo: "Grok-Video-Studio",
-      category: "AI and Automation",
-      title: "Grok Video Studio",
+      repo: "LedgerFetch",
+      category: "SaaS and Capture Platform",
+      title: "LedgerFetch",
       summary:
-        "A desktop video studio for generating AI clips, stitching media, and publishing to social platforms through API and browser automation flows.",
+        "SaaS-backed invoice and receipt capture platform with extension, dashboard, API, workers, extraction, deduplication, storage, and accounting sync.",
       impact:
-        "Demonstrates product thinking across UI, media pipelines, AI provider integration, and real-world automation.",
-      tech: ["Python", "PySide6", "JavaScript", "OpenAI", "xAI", "Browser Automation"],
-      image: "./assets/projects/grok-video-studio.jpg",
-      imageAlt: "Grok Video Studio desktop app screenshot",
-      accent: "accent-copper"
+        "Shows production architecture across front end, extension, worker pipeline, database, storage, deployment, and migration runbooks.",
+      tech: ["TypeScript", "Fastify", "Postgres", "Redis", "MinIO", "Chrome MV3"],
+      image: "./assets/projects/ledgerfetch-page.png",
+      imageAlt: "LedgerFetch GitHub repository screenshot",
+      accent: "accent-blue",
+      links: [{ label: "View repo", href: "https://github.com/mysticalg/LedgerFetch" }]
+    },
+    {
+      repo: "PromptShield",
+      category: "GenAI Security",
+      title: "PromptShield",
+      summary:
+        "Privacy-first GenAI data leak guard with API, worker, admin console, Chrome extension, shared policy engine, Docker, and deployment assets.",
+      impact:
+        "A stronger security-oriented signal: policy logic, detector schemas, admin surfaces, extension packaging, and production smoke checks.",
+      tech: ["TypeScript", "Fastify", "Chrome MV3", "Policy Engine", "Docker", "AWS"],
+      image: "./assets/projects/promptshield-page.png",
+      imageAlt: "PromptShield GitHub repository screenshot",
+      accent: "accent-teal",
+      links: [{ label: "View repo", href: "https://github.com/mysticalg/PromptShield" }]
+    },
+    {
+      repo: "PauseTab",
+      category: "Browser Product",
+      title: "PauseTab",
+      summary:
+        "Chrome extension product that adds intentional friction before distracting sites, with marketing site, billing, licensing, sync API, and launch docs.",
+      impact:
+        "Demonstrates product polish beyond code: privacy-first UX, Stripe-backed licensing, release checks, Web Store copy, and QA planning.",
+      tech: ["TypeScript", "Chrome MV3", "Stripe", "AWS", "Release Tooling"],
+      image: "./assets/projects/pausetab-page.png",
+      imageAlt: "PauseTab GitHub repository screenshot",
+      accent: "accent-ink",
+      links: [{ label: "View repo", href: "https://github.com/mysticalg/PauseTab" }]
+    },
+    {
+      repo: "AI-Music-Studio",
+      category: "Native AI Audio",
+      title: "Mutagen AI Music Studio",
+      summary:
+        "Native C++ AI music workstation with MIDI sequencing, piano roll editing, live VST3 hosting, bundled instruments, and AI-assisted composition.",
+      impact:
+        "Shows depth outside the usual web stack: JUCE desktop engineering, release automation, VST hosting, sample workflows, and product documentation.",
+      tech: ["C++", "JUCE", "VST3", "AI Compose", "Windows Releases"],
+      image: "./assets/projects/ai-music-studio-site.png",
+      imageAlt: "Mutagen AI Music Studio live site screenshot",
+      accent: "accent-cyan",
+      links: [
+        { label: "Live site", href: "https://mysticalg.github.io/AI-Music-Studio/" },
+        { label: "View repo", href: "https://github.com/mysticalg/AI-Music-Studio" }
+      ]
+    },
+    {
+      repo: "AI-Music-Studio-VST",
+      category: "VST Instrument Suite",
+      title: "AI Music Studio VST",
+      summary:
+        "JUCE-based bundled instrument suite for Mutagen, including synths, drum machine, sampler, acoustic instruments, and release workflows.",
+      impact:
+        "Adds lower-level audio engineering depth: plugin scaffolds, sample-library fetch paths, VST3 builds, catalog docs, and cross-platform artifacts.",
+      tech: ["C++", "JUCE", "VST3", "Sampler", "GitHub Actions"],
+      image: "./assets/projects/ai-music-studio-vst-page.png",
+      imageAlt: "AI Music Studio VST GitHub repository screenshot",
+      accent: "accent-cyan",
+      links: [{ label: "View repo", href: "https://github.com/mysticalg/AI-Music-Studio-VST" }]
     },
     {
       repo: "Backchat",
       category: "Cross-Platform App",
       title: "Backchat",
       summary:
-        "A cross-platform encrypted messaging scaffold targeting desktop and mobile, with OAuth sign-in, contact discovery, and encryption primitives.",
+        "Flutter-based encrypted messaging scaffold for desktop and mobile with OAuth sign-in, unread badges, presence, and one-to-one voice/video calls.",
       impact:
-        "Shows architectural range across app structure, auth flows, packaging concerns, and messaging-oriented UX.",
-      tech: ["Flutter", "Dart", "PHP", "OAuth", "Encryption", "Desktop and Mobile"],
-      image: "./assets/projects/backchat-page.png",
-      imageAlt: "Backchat GitHub repository preview showing project structure and README",
-      accent: "accent-ink"
+        "Shows app architecture range across desktop/mobile UI, auth, messaging workflows, packaging, and a public product site.",
+      tech: ["Flutter", "Dart", "OAuth", "WebRTC", "Desktop and Mobile"],
+      image: "./assets/projects/backchat-live-site.png",
+      imageAlt: "Backchat live site screenshot",
+      accent: "accent-gold",
+      links: [
+        { label: "Live site", href: "https://backchatapp.co.uk/" },
+        { label: "View repo", href: "https://github.com/mysticalg/Backchat" }
+      ]
     },
     {
-      repo: "AI-File-Namer",
-      category: "Desktop Tool",
-      title: "AI File Namer",
+      repo: "Grok-Video-Studio",
+      category: "AI Media Automation",
+      title: "Grok Video Studio",
       summary:
-        "A Windows desktop app that bulk-renames images and videos using either local vision models or OpenAI-compatible endpoints.",
+        "Desktop video studio for generating AI clips, stitching media, and publishing to social platforms through API and browser automation flows.",
       impact:
-        "Highlights a useful, employer-friendly workflow with scanning, previewing, renaming, and safe rollback.",
-      tech: ["Python", "Tkinter", "Ollama", "OpenAI-Compatible APIs", "Windows Packaging"],
-      image: "./assets/projects/ai-file-namer-page.png",
-      imageAlt: "AI File Namer GitHub repository preview showing README feature list",
-      accent: "accent-teal"
-    },
-    {
-      repo: "SkoolDaze",
-      category: "Game and Front-End",
-      title: "Skool Daze Tribute",
-      summary:
-        "An original HTML5 fan tribute with a full school map, AI-driven NPC behaviour, bell schedules, mischief systems, and objective progression.",
-      impact:
-        "A strong signal for front-end engineering depth through stateful systems, UI feedback, and layered gameplay logic.",
-      tech: ["JavaScript", "HTML5", "CSS", "Game Systems", "AI NPC Behaviour"],
-      image: "./assets/projects/skooldaze-live.png",
-      imageAlt: "Skool Daze Tribute live game screenshot",
-      accent: "accent-gold"
-    },
-    {
-      repo: "Nuclear-Commando",
-      category: "Game and Front-End",
-      title: "Nuclear Commando",
-      summary:
-        "A Contra-inspired side-scrolling shooter built with plain HTML5 canvas, layered levels, deterministic hooks, and custom sprite workflows.",
-      impact:
-        "Shows performance-minded front-end craft and the ability to build complex interaction-heavy systems without relying on a framework.",
-      tech: ["JavaScript", "HTML5 Canvas", "CSS", "Game Loop", "Asset Pipeline"],
-      image: "./assets/projects/nuclear-commando-shot.png",
-      imageAlt: "Nuclear Commando gameplay screenshot",
-      accent: "accent-berry"
-    },
-    {
-      repo: "wav-stem-offsetter",
-      category: "Desktop Tool",
-      title: "WAV Stem Offsetter",
-      summary:
-        "A Windows GUI app for extracting stems, applying per-stem time offsets, and reconstructing a new WAV for remix experimentation.",
-      impact:
-        "Shows practical utility design plus audio-processing awareness and workflow-focused UI thinking.",
-      tech: ["Python", "PySide6", "Demucs", "Audio Processing", "Windows GUI"],
-      image: "./assets/projects/wav-stem-offsetter-page.png",
-      imageAlt: "WAV Stem Offsetter GitHub repository preview showing README and features",
-      accent: "accent-green"
+        "Demonstrates practical media automation: desktop UI, provider integrations, media pipelines, browser workflows, and publishing operations.",
+      tech: ["Python", "PySide6", "FFmpeg", "OpenAI", "xAI", "Browser Automation"],
+      image: "./assets/projects/grok-video-studio.jpg",
+      imageAlt: "Grok Video Studio desktop app screenshot",
+      accent: "accent-copper",
+      links: [{ label: "View repo", href: "https://github.com/mysticalg/Grok-Video-Studio" }]
     }
-  ],
-  strengths: [
-    {
-      title: "Senior Delivery Experience",
-      body:
-        "Experience across agency, in-house, and freelance settings means I am comfortable with multiple delivery models, stakeholders, and project constraints."
-    },
-    {
-      title: "Strong Web Foundation",
-      body:
-        "My core stack spans PHP, Laravel, React, MySQL, JavaScript, CMS platforms, and the practical realities of long-lived production systems."
-    },
-    {
-      title: "Modernisation Without Drama",
-      body:
-        "I am used to improving existing products, integrating new services, and evolving schemas and codebases without losing sight of stability."
-    },
-    {
-      title: "Commerce Platform Delivery",
-      body:
-        "Adobe Commerce, Shopify, OpenCart, WordPress, and WooCommerce experience helps me handle both modern storefront work and older production systems."
-    },
-    {
-      title: "Curiosity Beyond the Day Job",
-      body:
-        "My public GitHub work shows continued experimentation with AI tooling, desktop software, automation, and front-end interaction work."
-    }
-  ],
-  education: [
-    {
-      title: "A-Level Computing",
-      detail: "Totton College",
-      period: "1997 - 1999"
-    },
-    {
-      title: "A-Level Music Technology",
-      detail: "Brockenhurst College",
-      period: "1995 - 1997"
-    },
-    {
-      title: "GCSEs",
-      detail: "Applemore Technology College",
-      period: "1990 - 1995"
-    }
-  ],
-  interests: [
-    "Music production and audio technology",
-    "Exploring AI-assisted development workflows",
-    "Long-term system architecture and optimisation"
   ]
 };
 
 const filterDefinitions = [
   { label: "All", value: "all" },
-  { label: "AI", value: "ai" },
-  { label: "Desktop", value: "desktop" },
+  { label: "SaaS", value: "saas" },
+  { label: "Security", value: "security" },
+  { label: "AI and Audio", value: "audio" },
+  { label: "Commerce", value: "commerce" },
+  { label: "Browser", value: "browser" },
   { label: "Games", value: "games" },
-  { label: "Browser", value: "browser" }
+  { label: "Apps", value: "apps" }
 ];
 
 const repoOverrides = new Map([
-  [
-    "SkoolDaze",
-    {
-      homepage: "https://mysticalg.github.io/SkoolDaze/"
-    }
-  ],
-  [
-    "Grok-Video-Studio",
-    {
-      homepage: "https://mysticalg.github.io/Grok-Video-Studio/"
-    }
-  ]
+  ["Backchat", { homepage: "https://backchatapp.co.uk/" }],
+  ["AI-Music-Studio", { homepage: "https://mysticalg.github.io/AI-Music-Studio/" }],
+  ["SkoolDaze", { homepage: "https://mysticalg.github.io/SkoolDaze/" }],
+  ["Grok-Video-Studio", { homepage: "https://mysticalg.github.io/Grok-Video-Studio/" }]
 ]);
 
 const projectCategoryMap = new Map([
-  ["Grok-Video-Studio", "ai"],
-  ["AI-File-Namer", "ai"],
-  ["YouTube-AI-Comment-Replies", "ai"],
-  ["YoutubeCommentResponder", "ai"],
-  ["Backchat", "desktop"],
-  ["wav-stem-offsetter", "desktop"],
+  ["LedgerFetch", "saas"],
+  ["PromptShield", "security"],
+  ["PauseTab", "browser"],
+  ["WooOracle-AI", "commerce"],
+  ["AI-Music-Studio", "audio"],
+  ["AI-Music-Studio-VST", "audio"],
+  ["AI-Synth", "audio"],
+  ["IDSynth", "audio"],
+  ["IDKick", "audio"],
+  ["wav-stem-offsetter", "audio"],
+  ["WAV-Linear-Phase-EQ-GUI", "audio"],
+  ["Grok-Video-Studio", "audio"],
+  ["AI-File-Namer", "apps"],
+  ["AI-Workspace-Archive-Pad", "apps"],
+  ["Backchat", "apps"],
+  ["mini-wallet-watch", "apps"],
+  ["public-crypto-gui", "apps"],
+  ["dev-toolkit", "apps"],
   ["video-link-grabber", "browser"],
   ["Chrome-Icon-Enlarger", "browser"],
+  ["YouTube-AI-Comment-Replies", "apps"],
+  ["YoutubeCommentResponder", "apps"],
+  ["720degrees", "games"],
   ["SkoolDaze", "games"],
   ["Nuclear-Commando", "games"],
-  ["720degrees", "games"],
   ["SpaceInvaders", "games"],
   ["GrandTheftAutoMini", "games"],
-  ["saboteur", "games"],
-  ["Renegade", "games"],
+  ["The-Great-Escape", "games"],
   ["Gold-Digger", "games"],
-  ["boomtrack", "games"]
+  ["ManicWilly", "games"],
+  ["Renegade", "games"],
+  ["Space-Trader", "games"],
+  ["lords", "games"],
+  ["saboteur", "games"],
+  ["boomtrack", "commerce"]
 ]);
+
+const archiveExclusions = new Set(["portfolio", "mysticalg.github.io"]);
 
 const statStrip = document.querySelector("#stat-strip");
 const featuredGrid = document.querySelector("#featured-grid");
-const strengthGrid = document.querySelector("#strength-grid");
 const projectGrid = document.querySelector("#project-grid");
 const filterBar = document.querySelector("#filter-bar");
 const searchInput = document.querySelector("#project-search");
 const coreStack = document.querySelector("#core-stack");
+const heroNowList = document.querySelector("#hero-now-list");
+const focusGrid = document.querySelector("#focus-grid");
 const profileSummaryElement = document.querySelector("#profile-summary");
 const skillGroups = document.querySelector("#skill-groups");
 const careerPoints = document.querySelector("#career-points");
@@ -416,8 +454,6 @@ const experienceGrid = document.querySelector("#experience-grid");
 const commercialGrid = document.querySelector("#commercial-grid");
 const commercialPrev = document.querySelector("[data-commercial-prev]");
 const commercialNext = document.querySelector("[data-commercial-next]");
-const educationList = document.querySelector("#education-list");
-const interestList = document.querySelector("#interest-list");
 
 let repoData = [];
 let activeFilter = "all";
@@ -427,23 +463,16 @@ document.querySelector("#hero-name").textContent = siteContent.hero.name;
 document.querySelector("#hero-intro").textContent = siteContent.hero.intro;
 profileSummaryElement.textContent = siteContent.profileSummary;
 
-siteContent.hero.stack.forEach((item) => {
-  const chip = document.createElement("span");
-  chip.className = "chip";
-  chip.textContent = item;
-  coreStack.append(chip);
-});
-
-renderSkillGroups();
-renderCareerPoints();
+renderHeroNow();
+renderCoreStack();
+renderFocusAreas();
+renderFeaturedProjects();
 renderPlatformPartners();
-renderExperience();
 renderCommercialProjects();
 setupCommercialCarousel();
-renderFeaturedProjects();
-renderStrengths();
-renderEducation();
-renderInterests();
+renderSkillGroups();
+renderCareerPoints();
+renderExperience();
 renderFilters();
 loadRepos();
 
@@ -474,6 +503,27 @@ async function loadRepos() {
   }
 }
 
+function renderHeroNow() {
+  heroNowList.innerHTML = "";
+
+  siteContent.heroNow.forEach((item) => {
+    const li = document.createElement("li");
+    li.textContent = item;
+    heroNowList.append(li);
+  });
+}
+
+function renderCoreStack() {
+  coreStack.innerHTML = "";
+
+  siteContent.hero.stack.forEach((item) => {
+    const chip = document.createElement("span");
+    chip.className = "chip";
+    chip.textContent = item;
+    coreStack.append(chip);
+  });
+}
+
 function renderStats(repositories) {
   const totalProjects = repositories.length;
   const recentProjects = repositories.filter((repo) => {
@@ -483,11 +533,11 @@ function renderStats(repositories) {
   }).length;
 
   const stats = [
-    "20+ years in web development",
-    "PHP, Laravel, React, MySQL, AWS",
-    `${siteContent.commercialProjects.length} website projects with visuals`,
-    `${totalProjects || 29} public repositories`,
-    `${recentProjects || "Several"} recently updated GitHub projects`
+    "20+ years production web engineering",
+    `${totalProjects || 45} public repositories synced from GitHub`,
+    `${recentProjects || "Several"} repos updated in the last 45 days`,
+    "SaaS, extensions, native audio, AI media, commerce",
+    "TypeScript, PHP, Laravel, React, C++, JUCE, Python"
   ];
 
   statStrip.innerHTML = "";
@@ -495,6 +545,24 @@ function renderStats(repositories) {
     const li = document.createElement("li");
     li.textContent = item;
     statStrip.append(li);
+  });
+}
+
+function renderFocusAreas() {
+  focusGrid.innerHTML = "";
+
+  siteContent.focusAreas.forEach((area) => {
+    const article = document.createElement("article");
+    article.className = "focus-card";
+    article.innerHTML = `
+      <p class="project-category">${area.label}</p>
+      <h3>${area.title}</h3>
+      <p>${area.body}</p>
+      <div class="chip-grid">
+        ${area.proof.map((item) => `<span class="chip">${item}</span>`).join("")}
+      </div>
+    `;
+    focusGrid.append(article);
   });
 }
 
@@ -525,18 +593,17 @@ function renderCareerPoints() {
 }
 
 function renderPlatformPartners() {
-  if (!platformGrid) {
-    return;
-  }
-
   platformGrid.innerHTML = "";
 
   siteContent.platformPartners.forEach((platform) => {
+    const logoMarkup = platform.logo
+      ? `<img class="platform-logo" src="${platform.logo}" alt="${platform.name} logo" loading="eager" />`
+      : `<span class="platform-text-logo">${platform.logoText || platform.name}</span>`;
     const article = document.createElement("article");
     article.className = `platform-card ${platform.accent}`;
     article.innerHTML = `
       <a class="platform-logo-link" href="${platform.url}" target="_blank" rel="noreferrer" aria-label="${platform.name}">
-        <img class="platform-logo" src="${platform.logo}" alt="${platform.name} logo" loading="eager" />
+        ${logoMarkup}
       </a>
       <div class="platform-copy">
         <p class="project-category">${platform.label}</p>
@@ -634,49 +701,13 @@ function renderFeaturedProjects() {
           ${project.tech.map((item) => `<span class="chip">${item}</span>`).join("")}
         </div>
         <div class="project-links">
-          <a href="https://github.com/mysticalg/${project.repo}" target="_blank" rel="noreferrer">View repo</a>
+          ${(project.links || [{ label: "View repo", href: `https://github.com/mysticalg/${project.repo}` }])
+            .map((link) => `<a href="${link.href}" target="_blank" rel="noreferrer">${link.label}</a>`)
+            .join("")}
         </div>
       </div>
     `;
     featuredGrid.append(article);
-  });
-}
-
-function renderStrengths() {
-  strengthGrid.innerHTML = "";
-
-  siteContent.strengths.forEach((strength) => {
-    const article = document.createElement("article");
-    article.className = "strength-card";
-    article.innerHTML = `
-      <h3>${strength.title}</h3>
-      <p>${strength.body}</p>
-    `;
-    strengthGrid.append(article);
-  });
-}
-
-function renderEducation() {
-  educationList.innerHTML = "";
-
-  siteContent.education.forEach((item) => {
-    const li = document.createElement("li");
-    li.innerHTML = `
-      <strong>${item.title}</strong>
-      <span>${item.detail}</span>
-      <span>${item.period}</span>
-    `;
-    educationList.append(li);
-  });
-}
-
-function renderInterests() {
-  interestList.innerHTML = "";
-
-  siteContent.interests.forEach((item) => {
-    const li = document.createElement("li");
-    li.textContent = item;
-    interestList.append(li);
   });
 }
 
@@ -699,7 +730,7 @@ function renderFilters() {
 
 function renderProjectGrid() {
   const visibleProjects = repoData
-    .filter((repo) => repo.name !== "portfolio")
+    .filter((repo) => !archiveExclusions.has(repo.name))
     .filter((repo) => {
       const category = projectCategoryMap.get(repo.name) || inferCategory(repo);
       const haystack = [repo.name, repo.description, repo.language, ...(repo.topics || [])]
@@ -760,7 +791,11 @@ function renderRepoChips(repo) {
     chips.push("Live page");
   }
 
-  (repo.topics || []).slice(0, 3).forEach((topic) => chips.push(topic));
+  if (repo.stars > 0) {
+    chips.push(`${repo.stars} star${repo.stars === 1 ? "" : "s"}`);
+  }
+
+  (repo.topics || []).slice(0, 2).forEach((topic) => chips.push(topic));
 
   return chips.map((item) => `<span class="chip">${item}</span>`).join("");
 }
@@ -770,12 +805,24 @@ function inferCategory(repo) {
   const name = repo.name.toLowerCase();
   const language = (repo.language || "").toLowerCase();
 
-  if (description.includes("ai") || description.includes("automation") || name.includes("ai")) {
-    return "ai";
+  if (description.includes("commerce") || description.includes("woocommerce") || description.includes("store") || name.includes("woo")) {
+    return "commerce";
   }
 
-  if (description.includes("chrome") || description.includes("extension")) {
+  if (description.includes("security") || description.includes("privacy") || description.includes("leak") || name.includes("shield")) {
+    return "security";
+  }
+
+  if (description.includes("chrome") || description.includes("extension") || name.includes("tab")) {
     return "browser";
+  }
+
+  if (description.includes("music") || description.includes("audio") || description.includes("midi") || description.includes("vst") || name.includes("synth")) {
+    return "audio";
+  }
+
+  if (description.includes("ai") || description.includes("automation") || name.includes("ai") || name.includes("grok")) {
+    return "apps";
   }
 
   if (
@@ -789,8 +836,12 @@ function inferCategory(repo) {
     return "games";
   }
 
-  if (language === "python" || language === "dart" || description.includes("gui")) {
-    return "desktop";
+  if (language === "python" || language === "dart" || language === "kotlin" || description.includes("gui")) {
+    return "apps";
+  }
+
+  if (language === "typescript" || description.includes("saas") || description.includes("api")) {
+    return "saas";
   }
 
   return "all";
@@ -798,14 +849,20 @@ function inferCategory(repo) {
 
 function labelForCategory(value) {
   switch (value) {
-    case "ai":
-      return "AI and Automation";
-    case "desktop":
-      return "Desktop and App";
+    case "saas":
+      return "SaaS and API";
+    case "security":
+      return "Privacy and Security";
+    case "audio":
+      return "AI and Audio";
+    case "commerce":
+      return "Commerce";
+    case "apps":
+      return "Apps and Tools";
     case "games":
       return "Games and Interactive";
     case "browser":
-      return "Browser Tool";
+      return "Browser Product";
     default:
       return "Project";
   }

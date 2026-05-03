@@ -1,7 +1,377 @@
 {
-  "generatedAt": "2026-03-18T19:15:25.434Z",
+  "generatedAt": "2026-05-03T03:33:27.340Z",
   "user": "mysticalg",
   "repositories": [
+    {
+      "name": "portfolio",
+      "url": "https://github.com/mysticalg/portfolio",
+      "description": "Employer-facing portfolio site that showcases my GitHub projects with featured case studies.",
+      "homepage": "",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-05-03T03:29:20Z"
+    },
+    {
+      "name": "LedgerFetch",
+      "url": "https://github.com/mysticalg/LedgerFetch",
+      "description": null,
+      "homepage": "",
+      "language": "TypeScript",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-05-03T01:45:49Z"
+    },
+    {
+      "name": "WTC-Project",
+      "url": "https://github.com/mysticalg/WTC-Project",
+      "description": null,
+      "homepage": "",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-04-29T23:50:39Z"
+    },
+    {
+      "name": "AI-Music-Studio-VST",
+      "url": "https://github.com/mysticalg/AI-Music-Studio-VST",
+      "description": "Native JUCE VST3 instruments for AI Music Studio",
+      "homepage": "",
+      "language": "C++",
+      "topics": [],
+      "stars": 1,
+      "updatedAt": "2026-04-04T19:33:01Z"
+    },
+    {
+      "name": "720degrees",
+      "url": "https://github.com/mysticalg/720degrees",
+      "description": "Original HTML5 isometric skate-park arcade game inspired by the flow of classic 720-style action.",
+      "homepage": "",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-04-21T09:35:58Z"
+    },
+    {
+      "name": "dev-toolkit",
+      "url": "https://github.com/mysticalg/dev-toolkit",
+      "description": null,
+      "homepage": "",
+      "language": "Kotlin",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-04-21T09:35:29Z"
+    },
+    {
+      "name": "Backchat",
+      "url": "https://github.com/mysticalg/Backchat",
+      "description": "Cross-platform encrypted messaging app scaffold for desktop and mobile with OAuth sign-in.",
+      "homepage": "https://backchatapp.co.uk/",
+      "language": "Dart",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-04-21T09:35:27Z"
+    },
+    {
+      "name": "PauseTab",
+      "url": "https://github.com/mysticalg/PauseTab",
+      "description": "PauseTab is a Chrome extension that adds intentional friction before a user enters distracting websites or feed surfaces such as YouTube, X, Reddit, Facebook, Instagram Web, and similar sites. The product is designed to reduce impulsive browsing while preserving user autonomy.",
+      "homepage": "",
+      "language": "TypeScript",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-04-21T09:35:26Z"
+    },
+    {
+      "name": "ManicWilly",
+      "url": "https://github.com/mysticalg/ManicWilly",
+      "description": "Jet Set Willy-inspired platformer prototype with multi-room progression and desktop export workflow.",
+      "homepage": "",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-04-21T09:35:24Z"
+    },
+    {
+      "name": "GrandTheftAutoMini",
+      "url": "https://github.com/mysticalg/GrandTheftAutoMini",
+      "description": "Browser-based open-world action game inspired by classic GTA-style driving, missions, and chaos.",
+      "homepage": "",
+      "language": "HTML",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-04-21T09:35:22Z"
+    },
+    {
+      "name": "Gold-Digger",
+      "url": "https://github.com/mysticalg/Gold-Digger",
+      "description": "Retro browser mining game with upgrades, fog-of-war exploration, and looping world design.",
+      "homepage": "",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-04-21T09:35:20Z"
+    },
+    {
+      "name": "boomtrack",
+      "url": "https://github.com/mysticalg/boomtrack",
+      "description": "Official website for the Infinite Dimensions music project, merch catalog, and admin tools.",
+      "homepage": "",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-04-21T09:35:18Z"
+    },
+    {
+      "name": "mysticalg.github.io",
+      "url": "https://github.com/mysticalg/mysticalg.github.io",
+      "description": "Root site for mysticalg GitHub Pages projects",
+      "homepage": "",
+      "language": "HTML",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-04-21T09:35:15Z"
+    },
+    {
+      "name": "PromptShield",
+      "url": "https://github.com/mysticalg/PromptShield",
+      "description": "GenAI Data Leak Guard",
+      "homepage": "",
+      "language": "TypeScript",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-04-21T08:32:45Z"
+    },
+    {
+      "name": "IDSynth",
+      "url": "https://github.com/mysticalg/IDSynth",
+      "description": "Legacy software synthesizer plugin with FM, unison, and modulation controls.",
+      "homepage": "",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-04-21T08:14:39Z"
+    },
+    {
+      "name": "IDKick",
+      "url": "https://github.com/mysticalg/IDKick",
+      "description": "Legacy Windows DLL release for the IDKick audio plugin project.",
+      "homepage": "",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-04-21T08:14:37Z"
+    },
+    {
+      "name": "bulkport",
+      "url": "https://github.com/mysticalg/bulkport",
+      "description": null,
+      "homepage": "",
+      "language": "HTML",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-04-21T08:07:27Z"
+    },
+    {
+      "name": "WAV-Linear-Phase-EQ-GUI",
+      "url": "https://github.com/mysticalg/WAV-Linear-Phase-EQ-GUI",
+      "description": "Desktop GUI for batch linear-phase EQ processing of WAV files with optional texture layers.",
+      "homepage": "",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-04-13T23:15:40Z"
+    },
+    {
+      "name": "AI-Music-Studio",
+      "url": "https://github.com/mysticalg/AI-Music-Studio",
+      "description": "Mutagen is a native AI music workstation and desktop MIDI sequencer with VST3 hosting, bundled instruments, and AI-assisted composition.",
+      "homepage": "https://mysticalg.github.io/AI-Music-Studio/",
+      "language": "C++",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-04-12T17:38:36Z"
+    },
+    {
+      "name": "WooOracle-AI",
+      "url": "https://github.com/mysticalg/WooOracle-AI",
+      "description": "WooOracle AI is a WooCommerce plugin that increases average order value (AOV), conversion rate, and recovery revenue through lightweight AI-powered personalization. It provides real-time product recommendations, dynamic bundles, cart drawer offers, guided selling on product/category pages, post-purchase offers, and abandoned cart recovery.",
+      "homepage": "",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-04-08T18:00:57Z"
+    },
+    {
+      "name": "roblox",
+      "url": "https://github.com/mysticalg/roblox",
+      "description": null,
+      "homepage": "",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-04-06T19:11:21Z"
+    },
+    {
+      "name": "AI-Workspace-Archive-Pad",
+      "url": "https://github.com/mysticalg/AI-Workspace-Archive-Pad",
+      "description": null,
+      "homepage": "",
+      "language": "TypeScript",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-04-01T01:58:20Z"
+    },
+    {
+      "name": "SkoolDaze",
+      "url": "https://github.com/mysticalg/SkoolDaze",
+      "description": "Original school-day browser game inspired by Skool Daze, with AI-driven NPC behavior.",
+      "homepage": "",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-03-25T08:21:11Z"
+    },
+    {
+      "name": "Nuclear-Commando",
+      "url": "https://github.com/mysticalg/Nuclear-Commando",
+      "description": "Contra-inspired HTML5 canvas shooter with handcrafted levels, weapon upgrades, and boss fights.",
+      "homepage": "",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-03-25T01:15:07Z"
+    },
+    {
+      "name": "Skyscraper-Security-Intelligence-Platform",
+      "url": "https://github.com/mysticalg/Skyscraper-Security-Intelligence-Platform",
+      "description": null,
+      "homepage": "",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-03-24T20:53:18Z"
+    },
+    {
+      "name": "crypto-ticker",
+      "url": "https://github.com/mysticalg/crypto-ticker",
+      "description": null,
+      "homepage": "",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-03-24T20:25:47Z"
+    },
+    {
+      "name": "Grok-Video-Studio",
+      "url": "https://github.com/mysticalg/Grok-Video-Studio",
+      "description": "Desktop app for generating AI videos, stitching clips, and publishing to social platforms.",
+      "homepage": "",
+      "language": "Python",
+      "topics": [],
+      "stars": 3,
+      "updatedAt": "2026-03-22T05:00:26Z"
+    },
+    {
+      "name": "video-link-grabber",
+      "url": "https://github.com/mysticalg/video-link-grabber",
+      "description": "Chrome extension that scans pages for direct video file links across available resolutions.",
+      "homepage": "",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-03-24T06:55:28Z"
+    },
+    {
+      "name": "fart-button",
+      "url": "https://github.com/mysticalg/fart-button",
+      "description": null,
+      "homepage": "",
+      "language": null,
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-03-24T06:30:43Z"
+    },
+    {
+      "name": "Minecraft-Server-Automation",
+      "url": "https://github.com/mysticalg/Minecraft-Server-Automation",
+      "description": null,
+      "homepage": "",
+      "language": "Shell",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-03-22T10:52:56Z"
+    },
+    {
+      "name": "Space-Trader",
+      "url": "https://github.com/mysticalg/Space-Trader",
+      "description": null,
+      "homepage": "",
+      "language": "TypeScript",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-03-20T07:20:18Z"
+    },
+    {
+      "name": "AI-Synth",
+      "url": "https://github.com/mysticalg/AI-Synth",
+      "description": "JUCE-based software synthesizer project for VST3 and standalone hosts.",
+      "homepage": "",
+      "language": "C++",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-03-19T22:39:26Z"
+    },
+    {
+      "name": "SpaceInvaders",
+      "url": "https://github.com/mysticalg/SpaceInvaders",
+      "description": "Retro HTML5 arcade shooter inspired by Space Invaders and Galaxian with layered wave systems.",
+      "homepage": "",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-03-19T03:48:01Z"
+    },
+    {
+      "name": "Renegade",
+      "url": "https://github.com/mysticalg/Renegade",
+      "description": "Retro beat-'em-up inspired by Renegade, built as an HTML5 browser game.",
+      "homepage": "",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-03-19T03:47:59Z"
+    },
+    {
+      "name": "public-crypto-gui",
+      "url": "https://github.com/mysticalg/public-crypto-gui",
+      "description": "Python GUI for public wallet scanning, demo mnemonic generation, and CSV export workflows.",
+      "homepage": "",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-03-19T03:47:57Z"
+    },
+    {
+      "name": "Chrome-Icon-Enlarger",
+      "url": "https://github.com/mysticalg/Chrome-Icon-Enlarger",
+      "description": "Chrome extension that gives your bookmarks toolbar a large-icon launcher popup.",
+      "homepage": "",
+      "language": "JavaScript",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-03-19T03:47:31Z"
+    },
+    {
+      "name": "AI-File-Namer",
+      "url": "https://github.com/mysticalg/AI-File-Namer",
+      "description": "Windows desktop app that bulk-renames images and videos using local or remote AI models.",
+      "homepage": "",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "updatedAt": "2026-03-19T03:47:19Z"
+    },
     {
       "name": "wav-stem-offsetter",
       "url": "https://github.com/mysticalg/wav-stem-offsetter",
@@ -33,26 +403,6 @@
       "updatedAt": "2026-02-12T16:42:24Z"
     },
     {
-      "name": "video-link-grabber",
-      "url": "https://github.com/mysticalg/video-link-grabber",
-      "description": "Chrome extension that scans pages for direct video file links across available resolutions.",
-      "homepage": "",
-      "language": "JavaScript",
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-02-12T15:30:24Z"
-    },
-    {
-      "name": "IDSynth",
-      "url": "https://github.com/mysticalg/IDSynth",
-      "description": "Legacy software synthesizer plugin with FM, unison, and modulation controls.",
-      "homepage": "",
-      "language": null,
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-02-16T03:19:24Z"
-    },
-    {
       "name": "mini-wallet-watch",
       "url": "https://github.com/mysticalg/mini-wallet-watch",
       "description": "Lightweight Android watch-only app for tracking wallet balances across major crypto chains.",
@@ -61,36 +411,6 @@
       "topics": [],
       "stars": 0,
       "updatedAt": "2026-02-15T11:12:43Z"
-    },
-    {
-      "name": "WAV-Linear-Phase-EQ-GUI",
-      "url": "https://github.com/mysticalg/WAV-Linear-Phase-EQ-GUI",
-      "description": "Desktop GUI for batch linear-phase EQ processing of WAV files with optional texture layers.",
-      "homepage": "",
-      "language": "Python",
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-02-12T19:01:51Z"
-    },
-    {
-      "name": "IDKick",
-      "url": "https://github.com/mysticalg/IDKick",
-      "description": "Legacy Windows DLL release for the IDKick audio plugin project.",
-      "homepage": "",
-      "language": null,
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-02-16T03:21:58Z"
-    },
-    {
-      "name": "public-crypto-gui",
-      "url": "https://github.com/mysticalg/public-crypto-gui",
-      "description": "Python GUI for public wallet scanning, demo mnemonic generation, and CSV export workflows.",
-      "homepage": "",
-      "language": "Python",
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-02-18T22:49:46Z"
     },
     {
       "name": "YouTube-AI-Comment-Replies",
@@ -103,26 +423,6 @@
       "updatedAt": "2026-02-15T07:00:32Z"
     },
     {
-      "name": "AI-Music-Studio",
-      "url": "https://github.com/mysticalg/AI-Music-Studio",
-      "description": "PySide6 desktop MIDI editor and DAW prototype with OpenAI-assisted composition tools.",
-      "homepage": "",
-      "language": "Python",
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-02-25T15:02:43Z"
-    },
-    {
-      "name": "ManicWilly",
-      "url": "https://github.com/mysticalg/ManicWilly",
-      "description": "Jet Set Willy-inspired platformer prototype with multi-room progression and desktop export workflow.",
-      "homepage": "",
-      "language": "Python",
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-03-10T21:54:29Z"
-    },
-    {
       "name": "lords",
       "url": "https://github.com/mysticalg/lords",
       "description": "Browser-based turn-based fantasy tactics game inspired by Lords of Chaos.",
@@ -131,16 +431,6 @@
       "topics": [],
       "stars": 0,
       "updatedAt": "2026-03-10T21:46:58Z"
-    },
-    {
-      "name": "Gold-Digger",
-      "url": "https://github.com/mysticalg/Gold-Digger",
-      "description": "Retro browser mining game with upgrades, fog-of-war exploration, and looping world design.",
-      "homepage": "",
-      "language": "JavaScript",
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-03-11T06:00:25Z"
     },
     {
       "name": "The-Great-Escape",
@@ -153,36 +443,6 @@
       "updatedAt": "2026-03-10T23:33:03Z"
     },
     {
-      "name": "Renegade",
-      "url": "https://github.com/mysticalg/Renegade",
-      "description": "Retro beat-'em-up inspired by Renegade, built as an HTML5 browser game.",
-      "homepage": "",
-      "language": "JavaScript",
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-03-11T06:46:14Z"
-    },
-    {
-      "name": "AI-Synth",
-      "url": "https://github.com/mysticalg/AI-Synth",
-      "description": "JUCE-based software synthesizer project for VST3 and standalone hosts.",
-      "homepage": "",
-      "language": "C++",
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-03-11T09:08:26Z"
-    },
-    {
-      "name": "SkoolDaze",
-      "url": "https://github.com/mysticalg/SkoolDaze",
-      "description": "Original school-day browser game inspired by Skool Daze, with AI-driven NPC behavior.",
-      "homepage": "",
-      "language": "JavaScript",
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-03-12T22:35:24Z"
-    },
-    {
       "name": "saboteur",
       "url": "https://github.com/mysticalg/saboteur",
       "description": "Retro browser platformer inspired by Saboteur II, built with HTML5 canvas and vanilla JavaScript.",
@@ -191,106 +451,6 @@
       "topics": [],
       "stars": 0,
       "updatedAt": "2026-03-13T18:59:52Z"
-    },
-    {
-      "name": "GrandTheftAutoMini",
-      "url": "https://github.com/mysticalg/GrandTheftAutoMini",
-      "description": "Browser-based open-world action game inspired by classic GTA-style driving, missions, and chaos.",
-      "homepage": "",
-      "language": "HTML",
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-03-13T21:38:27Z"
-    },
-    {
-      "name": "720degrees",
-      "url": "https://github.com/mysticalg/720degrees",
-      "description": "Original HTML5 isometric skate-park arcade game inspired by the flow of classic 720-style action.",
-      "homepage": "",
-      "language": "JavaScript",
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-03-14T23:03:54Z"
-    },
-    {
-      "name": "boomtrack",
-      "url": "https://github.com/mysticalg/boomtrack",
-      "description": "Official website for the Infinite Dimensions music project, merch catalog, and admin tools.",
-      "homepage": "",
-      "language": "JavaScript",
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-03-16T16:09:38Z"
-    },
-    {
-      "name": "Chrome-Icon-Enlarger",
-      "url": "https://github.com/mysticalg/Chrome-Icon-Enlarger",
-      "description": "Chrome extension that gives your bookmarks toolbar a large-icon launcher popup.",
-      "homepage": "",
-      "language": "JavaScript",
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-03-16T16:11:14Z"
-    },
-    {
-      "name": "AI-File-Namer",
-      "url": "https://github.com/mysticalg/AI-File-Namer",
-      "description": "Windows desktop app that bulk-renames images and videos using local or remote AI models.",
-      "homepage": "",
-      "language": "Python",
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-03-16T23:41:30Z"
-    },
-    {
-      "name": "SpaceInvaders",
-      "url": "https://github.com/mysticalg/SpaceInvaders",
-      "description": "Retro HTML5 arcade shooter inspired by Space Invaders and Galaxian with layered wave systems.",
-      "homepage": "",
-      "language": "JavaScript",
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-03-17T06:44:27Z"
-    },
-    {
-      "name": "Grok-Video-Studio",
-      "url": "https://github.com/mysticalg/Grok-Video-Studio",
-      "description": "Desktop app for generating AI videos, stitching clips, and publishing to social platforms.",
-      "homepage": "",
-      "language": "Python",
-      "topics": [],
-      "stars": 3,
-      "updatedAt": "2026-03-18T06:51:25Z"
-    },
-    {
-      "name": "Backchat",
-      "url": "https://github.com/mysticalg/Backchat",
-      "description": "Cross-platform encrypted messaging app scaffold for desktop and mobile with OAuth sign-in.",
-      "homepage": "",
-      "language": "Dart",
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-03-18T18:20:42Z"
-    },
-    {
-      "name": "Nuclear-Commando",
-      "url": "https://github.com/mysticalg/Nuclear-Commando",
-      "description": "Contra-inspired HTML5 canvas shooter with handcrafted levels, weapon upgrades, and boss fights.",
-      "homepage": "",
-      "language": "JavaScript",
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-03-18T18:40:33Z"
-    },
-    {
-      "name": "portfolio",
-      "url": "https://github.com/mysticalg/portfolio",
-      "description": "Employer-facing portfolio site that showcases my GitHub projects with featured case studies.",
-      "homepage": "",
-      "language": null,
-      "topics": [],
-      "stars": 0,
-      "updatedAt": "2026-03-18T17:26:07Z"
     }
   ]
 }

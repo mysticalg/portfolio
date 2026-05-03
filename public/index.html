@@ -6,7 +6,7 @@
     <title>David Hook | Senior Software Engineer</title>
     <meta
       name="description"
-      content="Portfolio site for David Hook, a senior software engineer with 20+ years of experience across PHP, Laravel, React, MySQL, AWS, commercial web delivery, and public GitHub projects."
+      content="Portfolio site for David Hook, a senior software engineer building SaaS products, AI-assisted tools, commerce platforms, browser extensions, native audio software, and production web systems."
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,11 +21,11 @@
       <header class="topbar">
         <a class="brand" href="#top">David Hook</a>
         <nav class="nav">
-          <a href="#profile">Profile</a>
+          <a href="#focus">Focus</a>
+          <a href="#featured">Flagship Work</a>
           <a href="#platforms">Platforms</a>
-          <a href="#commercial">Website Work</a>
-          <a href="#experience">Experience</a>
-          <a href="#featured">GitHub Highlights</a>
+          <a href="#commercial">Commercial</a>
+          <a href="#projects">GitHub</a>
           <a href="./downloads/">Downloads</a>
           <a href="#contact">Contact</a>
         </nav>
@@ -34,20 +34,17 @@
       <main id="top">
         <section class="hero reveal reveal-delay-1">
           <div class="hero-copy">
-            <h1 id="hero-name">David Hook</h1>
             <p class="hero-role">Senior Software Engineer</p>
-            <p class="hero-kicker">20+ years building web applications across agency, in-house, and freelance roles</p>
+            <h1 id="hero-name">David Hook</h1>
+            <p class="hero-kicker">Production software across SaaS, AI, commerce, browser extensions, and desktop tools.</p>
             <p class="hero-intro" id="hero-intro">
-              Senior Software Engineer with 20+ years experience building, maintaining, and scaling web applications across PHP, Laravel, React, MySQL, AWS, and modern API integrations.
-            </p>
-            <p class="availability-banner">
-              <strong>Currently available for freelance commissions.</strong> Website builds, platform upgrades, maintenance, API integrations, and performance work for businesses that need hands-on delivery.
+              I build practical products end to end: TypeScript SaaS platforms, Chrome extensions, native C++/JUCE audio tools, Laravel and React systems, and long-running commerce platforms.
             </p>
             <div class="cta-row">
-              <a class="button button-primary" href="mailto:davehook563@gmail.com?subject=Freelance%20website%20project">Start a Project</a>
-              <a class="button button-secondary" href="#commercial">See Website Work</a>
-              <a class="button button-secondary" href="./downloads/">Project Downloads</a>
+              <a class="button button-primary" href="mailto:davehook563@gmail.com?subject=Software%20project">Start a Project</a>
+              <a class="button button-secondary" href="#featured">See Current Work</a>
               <a class="button button-secondary" href="https://github.com/mysticalg" target="_blank" rel="noreferrer">GitHub Profile</a>
+              <a class="button button-secondary" href="./downloads/">Downloads</a>
             </div>
             <ul class="stat-strip" id="stat-strip"></ul>
           </div>
@@ -63,31 +60,60 @@
                 />
               </div>
               <figcaption class="profile-copy">
-                <p class="panel-label">Contact</p>
-                <h2>Available for freelance, contract, and platform integration work.</h2>
+                <p class="panel-label">Available for selective work</p>
+                <h2>Hands-on delivery for production apps, commerce platforms, AI workflows, and rescue or modernisation work.</h2>
                 <ul class="profile-links">
                   <li><a href="mailto:davehook563@gmail.com">davehook563@gmail.com</a></li>
                   <li><a href="tel:+447757313206">07757 313206</a></li>
-                  <li><a href="https://www.facebook.com/dhookster1" target="_blank" rel="noreferrer">facebook.com/dhookster1</a></li>
                   <li><a href="https://github.com/mysticalg" target="_blank" rel="noreferrer">github.com/mysticalg</a></li>
                 </ul>
               </figcaption>
             </figure>
 
             <div class="panel-card panel-card-accent">
+              <p class="panel-label">Currently building</p>
+              <ul id="hero-now-list" class="hero-now-list"></ul>
+            </div>
+
+            <div class="panel-card">
               <p class="panel-label">Core stack</p>
               <div id="core-stack" class="chip-grid"></div>
             </div>
           </aside>
         </section>
 
-        <section id="platforms" class="section platform-section reveal reveal-delay-2">
+        <section id="focus" class="section focus-section reveal reveal-delay-2">
           <div class="section-heading section-heading-split">
             <div>
-              <p class="eyebrow">Platform Partnerships</p>
+              <p class="eyebrow">Current Focus</p>
+              <h2>The latest work points to product systems, not just websites</h2>
+              <p>
+                Recent GitHub activity is centred on full-stack SaaS products, privacy/security extensions, native audio software, and AI-assisted commerce tooling.
+              </p>
+            </div>
+            <a class="section-link" href="#projects">Browse the full archive</a>
+          </div>
+          <div id="focus-grid" class="focus-grid"></div>
+        </section>
+
+        <section id="featured" class="section reveal reveal-delay-3">
+          <div class="section-heading">
+            <p class="eyebrow">Flagship Work</p>
+            <h2>Recent and strongest public projects</h2>
+            <p>
+              These are the projects I would lead with today: deployed product architecture, Chrome extension products, privacy tooling, native audio software, and AI media workflows.
+            </p>
+          </div>
+          <div id="featured-grid" class="featured-grid flagship-grid"></div>
+        </section>
+
+        <section id="platforms" class="section platform-section reveal reveal-delay-4">
+          <div class="section-heading section-heading-split">
+            <div>
+              <p class="eyebrow">Platform Delivery</p>
               <h2>Commerce and content platforms with real delivery behind the logos</h2>
               <p>
-                Platform partnerships and hands-on build experience across Adobe Commerce, Shopify, and OpenCart, backed by long-term PHP, CMS, extension, and integration work.
+                Partner and platform work across Adobe Commerce, Shopify, OpenCart, WooCommerce, and custom PHP systems, supported by newer product work such as WooOracle AI.
               </p>
             </div>
             <a class="section-link" href="#contact">Discuss a platform project</a>
@@ -95,36 +121,16 @@
           <div id="platform-grid" class="platform-grid"></div>
         </section>
 
-        <section id="profile" class="section reveal reveal-delay-2">
+        <section id="commercial" class="section reveal reveal-delay-5">
           <div class="section-heading">
-            <p class="eyebrow">Professional Profile</p>
-            <h2>Full-stack delivery grounded in PHP, Laravel, React, MySQL, and AWS</h2>
-            <p id="profile-summary">
-              Senior Software Engineer with 20+ years experience building, maintaining, and scaling web applications across agency, in-house, and freelance environments.
-            </p>
-          </div>
-          <div class="summary-grid">
-            <article class="summary-card">
-              <p class="panel-label">Key skill areas</p>
-              <div id="skill-groups" class="skill-groups"></div>
-            </article>
-            <article class="summary-card summary-card-accent">
-              <p class="panel-label">Career focus</p>
-              <ul id="career-points" class="career-points"></ul>
-            </article>
-          </div>
-        </section>
-
-        <section id="commercial" class="section reveal reveal-delay-3">
-          <div class="section-heading">
-            <p class="eyebrow">Website Work</p>
-            <h2>Selected websites and platforms I have worked on professionally</h2>
+            <p class="eyebrow">Commercial Website Work</p>
+            <h2>Long-running delivery across agencies, clients, and production sites</h2>
             <p>
-              These projects reflect the commercial side of my career across agency and freelance work, covering e-commerce, reservations, multilingual sites, search, content management, and performance optimisation.
+              The newer GitHub products sit on top of a long commercial base: CMS builds, e-commerce, reservations, multilingual sites, search, content management, and performance work.
             </p>
           </div>
           <div class="carousel-toolbar">
-            <p class="carousel-note">Scroll through the client and commercial projects, or use the arrows to move through the carousel.</p>
+            <p class="carousel-note">Selected client and commercial projects from agency and freelance work.</p>
             <div class="carousel-controls">
               <button type="button" class="carousel-button" data-commercial-prev aria-label="Scroll website work left">Previous</button>
               <button type="button" class="carousel-button" data-commercial-next aria-label="Scroll website work right">Next</button>
@@ -133,42 +139,12 @@
           <div id="commercial-grid" class="commercial-grid"></div>
         </section>
 
-        <section id="experience" class="section reveal reveal-delay-4">
-          <div class="section-heading">
-            <p class="eyebrow">Experience</p>
-            <h2>Career history across product teams, freelance delivery, and agency work</h2>
-            <p>
-              My recent work spans modern React and Laravel product development, long-term LAMP support for multiple clients, and freelance delivery for businesses needing dependable web engineering.
-            </p>
-          </div>
-          <div id="experience-grid" class="experience-grid"></div>
-        </section>
-
-        <section id="featured" class="section reveal reveal-delay-5">
-          <div class="section-heading">
-            <p class="eyebrow">GitHub Highlights</p>
-            <h2>Public projects that complement my professional web work</h2>
-            <p>
-              These GitHub projects show how I apply product thinking outside commercial roles: AI automation, desktop utilities, browser tooling, and interaction-heavy front-end builds.
-            </p>
-          </div>
-          <div id="featured-grid" class="featured-grid"></div>
-        </section>
-
-        <section id="strengths" class="section strengths reveal reveal-delay-5">
-          <div class="section-heading">
-            <p class="eyebrow">Strengths</p>
-            <h2>What I bring to teams</h2>
-          </div>
-          <div id="strength-grid" class="strength-grid"></div>
-        </section>
-
         <section id="projects" class="section reveal reveal-delay-5">
           <div class="section-heading">
-            <p class="eyebrow">GitHub Projects</p>
-            <h2>Broader public project history</h2>
+            <p class="eyebrow">GitHub Archive</p>
+            <h2>45 public repositories, grouped by the kind of problem they solve</h2>
             <p>
-              This section stays close to the repo metadata so the site reflects current work without relying on a heavy runtime integration.
+              The archive is regenerated from GitHub metadata so the page stays close to current work without adding a heavy runtime integration.
             </p>
           </div>
           <div class="project-toolbar">
@@ -181,44 +157,48 @@
           <div id="project-grid" class="project-grid"></div>
         </section>
 
-        <section id="credentials" class="section reveal reveal-delay-5">
+        <section id="experience" class="section reveal reveal-delay-5">
           <div class="section-heading">
-            <p class="eyebrow">Education and Interests</p>
-            <h2>Long-term technical grounding with curiosity for new workflows</h2>
+            <p class="eyebrow">Experience</p>
+            <h2>Senior web engineering with a newer product-builder edge</h2>
+            <p id="profile-summary">
+              Senior Software Engineer with 20+ years experience building, maintaining, and scaling production systems across agency, in-house, freelance, and independent product work.
+            </p>
           </div>
-          <div class="credentials-grid">
+          <div class="summary-grid">
             <article class="summary-card">
-              <p class="panel-label">Education</p>
-              <ul id="education-list" class="detail-list"></ul>
+              <p class="panel-label">Technical range</p>
+              <div id="skill-groups" class="skill-groups"></div>
             </article>
             <article class="summary-card summary-card-accent">
-              <p class="panel-label">Interests</p>
-              <ul id="interest-list" class="detail-list"></ul>
+              <p class="panel-label">How I work</p>
+              <ul id="career-points" class="career-points"></ul>
             </article>
           </div>
+          <div id="experience-grid" class="experience-grid experience-grid-spaced"></div>
         </section>
 
         <section id="contact" class="section contact reveal reveal-delay-5">
           <div class="contact-card">
             <div>
-              <p class="eyebrow">Open to opportunities</p>
-              <h2>Looking for a senior developer who can modernise, ship, and support real-world web products.</h2>
+              <p class="eyebrow">Open to the right projects</p>
+              <h2>Need someone who can ship product code and understand the commercial reality around it?</h2>
               <p>
-                I am David Hook, a Senior Software Engineer with experience across Laravel, React, PHP, MySQL, AWS, CMS platforms, e-commerce, and API integrations. If you think I could help your team, I would be happy to talk.
+                I can help with SaaS builds, Laravel and React products, Chrome extensions, AI workflows, native audio tooling, commerce platform work, and careful modernisation of existing systems.
               </p>
             </div>
             <div class="contact-actions">
               <a class="button button-primary" href="mailto:davehook563@gmail.com">davehook563@gmail.com</a>
               <a class="button button-secondary" href="tel:+447757313206">07757 313206</a>
-              <a class="button button-secondary" href="https://www.facebook.com/dhookster1" target="_blank" rel="noreferrer">Facebook Profile</a>
               <a class="button button-secondary" href="https://github.com/mysticalg" target="_blank" rel="noreferrer">Browse GitHub</a>
+              <a class="button button-secondary" href="https://www.facebook.com/dhookster1" target="_blank" rel="noreferrer">Facebook Profile</a>
             </div>
           </div>
         </section>
       </main>
 
       <footer class="footer">
-        <p>David Hook | Senior Software Engineer | Built as a static-first Node app for low-cost AWS hosting.</p>
+        <p>David Hook | Senior Software Engineer | SaaS, AI tooling, commerce platforms, and production web systems.</p>
       </footer>
     </div>
 
