@@ -2,15 +2,15 @@ const siteContent = {
   hero: {
     name: "David Hook",
     intro:
-      "Senior Software Engineer with 20+ years experience building, maintaining, and scaling web applications across agency, in-house, and freelance environments. Strong full-stack expertise across PHP, Laravel, React, MySQL, AWS, and modern API integrations.",
-    stack: ["PHP", "Laravel", "React", "MySQL", "JavaScript", "AWS", "WordPress", "API Integrations"]
+      "Senior Software Engineer with 20+ years experience building, maintaining, and scaling web applications across agency, in-house, and freelance environments. Strong full-stack expertise across PHP, Laravel, React, MySQL, AWS, commerce platforms, and modern API integrations.",
+    stack: ["PHP", "Laravel", "React", "MySQL", "AWS", "Adobe Commerce", "Shopify", "OpenCart"]
   },
   profileSummary:
-    "Senior Software Engineer with 20+ years experience building, maintaining, and scaling web applications across agency, in-house, and freelance environments. Strong full-stack expertise with PHP, Laravel, React, and MySQL, delivering secure, high-performance solutions in fast-paced and agile teams. I am currently available for freelance commissions.",
+    "Senior Software Engineer with 20+ years experience building, maintaining, and scaling web applications across agency, in-house, and freelance environments. Strong full-stack expertise with PHP, Laravel, React, MySQL, Adobe Commerce, Shopify, and OpenCart, delivering secure, high-performance solutions in fast-paced and agile teams. I am currently available for freelance commissions.",
   careerPoints: [
     "Architecting and delivering modern web platforms with React front ends and Laravel back ends",
     "Improving legacy systems without losing sight of stability, maintainability, and release cadence",
-    "Shipping e-commerce, CMS, booking, search, and API-driven products across multiple industries",
+    "Shipping e-commerce, CMS, booking, search, and API-driven products across Adobe Commerce, Shopify, OpenCart, and bespoke stacks",
     "Comfortable collaborating with stakeholders, product teams, and clients to turn requirements into working software"
   ],
   skillGroups: [
@@ -20,7 +20,7 @@ const siteContent = {
     },
     {
       title: "CMS and E-Commerce",
-      items: ["WordPress", "WooCommerce", "Magento", "OpenCart", "Custom plugins", "SEO improvements"]
+      items: ["Adobe Commerce", "Magento", "Shopify", "OpenCart", "WordPress", "WooCommerce", "Custom plugins", "SEO improvements"]
     },
     {
       title: "Tools and Platforms",
@@ -29,6 +29,38 @@ const siteContent = {
     {
       title: "Additional Strengths",
       items: ["REST APIs", "Google APIs", "Amazon integrations", "OpenAI integrations", "MVC frameworks", "Performance tuning"]
+    }
+  ],
+  platformPartners: [
+    {
+      name: "Adobe Commerce",
+      label: "Adobe platform partner",
+      logo: "./assets/platforms/adobe-wordmark.svg",
+      url: "https://business.adobe.com/products/commerce/adobe-commerce.html",
+      body:
+        "Magento and Adobe Commerce work covering extensions, marketplace-style delivery, catalogue flows, integrations, and long-term support.",
+      strengths: ["Commerce builds", "Extension work", "Performance support"],
+      accent: "platform-adobe"
+    },
+    {
+      name: "Shopify",
+      label: "Shopify partner",
+      logo: "./assets/platforms/shopify-wordmark.svg",
+      url: "https://www.shopify.com/partners",
+      body:
+        "Theme improvements, storefront changes, migrations, checkout-adjacent workflows, and API integrations for merchants who need practical delivery.",
+      strengths: ["Theme work", "Storefront polish", "API integration"],
+      accent: "platform-shopify"
+    },
+    {
+      name: "OpenCart",
+      label: "OpenCart partner",
+      logo: "./assets/platforms/opencart.svg",
+      url: "https://www.opencart.com/index.php?route=support/partner",
+      body:
+        "Custom OpenCart extensions, maintenance, catalogue and checkout improvements, and support for long-running PHP commerce installs.",
+      strengths: ["Custom modules", "Maintenance", "Checkout improvements"],
+      accent: "platform-opencart"
     }
   ],
   experience: [
@@ -292,6 +324,11 @@ const siteContent = {
         "I am used to improving existing products, integrating new services, and evolving schemas and codebases without losing sight of stability."
     },
     {
+      title: "Commerce Platform Delivery",
+      body:
+        "Adobe Commerce, Shopify, OpenCart, WordPress, and WooCommerce experience helps me handle both modern storefront work and older production systems."
+    },
+    {
       title: "Curiosity Beyond the Day Job",
       body:
         "My public GitHub work shows continued experimentation with AI tooling, desktop software, automation, and front-end interaction work."
@@ -374,6 +411,7 @@ const coreStack = document.querySelector("#core-stack");
 const profileSummaryElement = document.querySelector("#profile-summary");
 const skillGroups = document.querySelector("#skill-groups");
 const careerPoints = document.querySelector("#career-points");
+const platformGrid = document.querySelector("#platform-grid");
 const experienceGrid = document.querySelector("#experience-grid");
 const commercialGrid = document.querySelector("#commercial-grid");
 const commercialPrev = document.querySelector("[data-commercial-prev]");
@@ -398,6 +436,7 @@ siteContent.hero.stack.forEach((item) => {
 
 renderSkillGroups();
 renderCareerPoints();
+renderPlatformPartners();
 renderExperience();
 renderCommercialProjects();
 setupCommercialCarousel();
@@ -485,6 +524,33 @@ function renderCareerPoints() {
   });
 }
 
+function renderPlatformPartners() {
+  if (!platformGrid) {
+    return;
+  }
+
+  platformGrid.innerHTML = "";
+
+  siteContent.platformPartners.forEach((platform) => {
+    const article = document.createElement("article");
+    article.className = `platform-card ${platform.accent}`;
+    article.innerHTML = `
+      <a class="platform-logo-link" href="${platform.url}" target="_blank" rel="noreferrer" aria-label="${platform.name}">
+        <img class="platform-logo" src="${platform.logo}" alt="${platform.name} logo" loading="eager" />
+      </a>
+      <div class="platform-copy">
+        <p class="project-category">${platform.label}</p>
+        <h3>${platform.name}</h3>
+        <p>${platform.body}</p>
+      </div>
+      <div class="platform-strengths">
+        ${platform.strengths.map((item) => `<span>${item}</span>`).join("")}
+      </div>
+    `;
+    platformGrid.append(article);
+  });
+}
+
 function renderExperience() {
   experienceGrid.innerHTML = "";
 
@@ -552,12 +618,12 @@ function renderCommercialDomain(project) {
 function renderFeaturedProjects() {
   featuredGrid.innerHTML = "";
 
-  siteContent.featuredProjects.forEach((project, index) => {
+  siteContent.featuredProjects.forEach((project) => {
     const article = document.createElement("article");
     article.className = `featured-card ${project.accent || ""}`;
     article.innerHTML = `
       <div class="featured-media">
-        <img src="${project.image}" alt="${project.imageAlt}" loading="${index < 2 ? "eager" : "lazy"}" />
+        <img src="${project.image}" alt="${project.imageAlt}" loading="eager" />
       </div>
       <div class="featured-body">
         <p class="project-category">${project.category}</p>
