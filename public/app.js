@@ -6,9 +6,9 @@ const siteContent = {
     stack: ["TypeScript", "PHP", "Laravel", "React", "C++", "JUCE", "AWS", "Shopify", "Adobe Commerce", "OpenCart"]
   },
   heroNow: [
-    "LedgerFetch: SaaS-backed invoice and receipt capture with extension, dashboard, API, workers, Postgres, Redis, and MinIO.",
-    "PromptShield and PauseTab: privacy-first browser products with TypeScript monorepos, Chrome Manifest V3, billing, policy, and deployment paths.",
-    "Mutagen AI Music Studio: native JUCE desktop workstation with VST3 hosting, bundled instruments, and AI-assisted composition."
+    "LedgerFetch: capture SaaS with extension, API, workers, and accounting sync.",
+    "PromptShield + PauseTab: privacy-first Chrome products with policy and billing paths.",
+    "Mutagen: JUCE/VST3 audio workstation plus bundled instrument suite."
   ],
   profileSummary:
     "Senior Software Engineer with 20+ years experience building, maintaining, and scaling production systems across agency, in-house, freelance, and independent product work. Recent GitHub activity shows full-stack SaaS architecture, privacy/security extensions, native C++ audio tooling, AI-assisted workflows, and commerce platform delivery.",
@@ -533,17 +533,17 @@ function renderStats(repositories) {
   }).length;
 
   const stats = [
-    "20+ years production web engineering",
-    `${totalProjects || 45} public repositories synced from GitHub`,
-    `${recentProjects || "Several"} repos updated in the last 45 days`,
-    "SaaS, extensions, native audio, AI media, commerce",
-    "TypeScript, PHP, Laravel, React, C++, JUCE, Python"
+    { value: "20+ years", label: "production web engineering" },
+    { value: `${totalProjects || 45} repos`, label: "synced from GitHub" },
+    { value: `${recentProjects || "Several"} updates`, label: "in the last 45 days" },
+    { value: "SaaS + AI", label: "extensions, audio, commerce" },
+    { value: "TS to C++", label: "Laravel, React, JUCE, Python" }
   ];
 
   statStrip.innerHTML = "";
   stats.forEach((item) => {
     const li = document.createElement("li");
-    li.textContent = item;
+    li.innerHTML = `<span class="stat-value">${item.value}</span><span class="stat-label">${item.label}</span>`;
     statStrip.append(li);
   });
 }
@@ -718,6 +718,8 @@ function renderFilters() {
     const button = document.createElement("button");
     button.type = "button";
     button.className = item.value === activeFilter ? "filter-chip active" : "filter-chip";
+    button.dataset.filter = item.value;
+    button.setAttribute("aria-pressed", String(item.value === activeFilter));
     button.textContent = item.label;
     button.addEventListener("click", () => {
       activeFilter = item.value;
